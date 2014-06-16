@@ -8,7 +8,7 @@
                 <attribute name="Main-Class" value="HelloWorld"/>
                 <attribute name="Class-Path" value="."/>
             </manifest>
-            <fileset dir="https://github.com/Arby1991/HW/blob/master/build.xml"/>
+            <fileset dir="http://sonarse.it.dh-karlsruhe.de/me/my-views/view/Alle/job/HW/ws/bin/"/>
         </jar>
     </target>
 </project>
