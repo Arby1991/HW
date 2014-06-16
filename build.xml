@@ -1,6 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project name="HW.makejar" default="makejar" basedir=".">
-  <target name ="makejar" description="Create a jar for the HW project">
-    <jar jarfile="HelloWorld.jar" includes="*.class" basedir="bin"/>
-  </target>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project HW">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/Marco/Desktop/blub.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="HelloWorld"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Users/Marco/Desktop/GitHub/HW/bin"/>
+        </jar>
+    </target>
 </project>
